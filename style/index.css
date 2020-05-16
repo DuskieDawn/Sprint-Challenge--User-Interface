@@ -28,9 +28,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+    font-size: 62.5%
+}
 body {
 	line-height: 1;
 }
+header img 
 ol, ul {
 	list-style: none;
 }
@@ -65,6 +69,28 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+header {
+    width: 80%;
+}
+
+.tiptop a {   
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 1rem;
+    display: inline;
+}
+ 
+   .tiptop {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 1.4rem;
+    border: 1px solid red;
+       }
 
 .container {
     width: 800px;
@@ -111,6 +137,9 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 .bottom-content {
     display: flex;
